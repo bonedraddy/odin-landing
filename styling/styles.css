@@ -39,9 +39,33 @@ body {
   display: flex;
 }
 
-.quote-container {
+/* Quote */
+.quote-section {
   background-color: #e5e7eb;
   display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.quote-container {
+  width: 800px;
+  max-width: 100%;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300px;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-source {
+  margin: 10px 0 0 0;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 24px;
+  color: #1f2937;
 }
 
 /* Call to Action */
@@ -54,12 +78,16 @@ body {
 
 .call-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
   border-radius: 10px;
-  padding: 50px auto;
-  width: 70%;
+  padding: 30px 60px;
+  width: 50%;
+}
+
+.call-left {
+  max-width: 600px;
 }
 
 .call-button {
@@ -68,7 +96,7 @@ body {
   border: 2px solid #ffffff;
   color: #ffffff;
   font-weight: bold;
-  width: 150px;
+  width: 80px;
   height: 35px;
 }
 
@@ -87,4 +115,6 @@ footer {
   background-color: #1f2937;
   justify-content: center;
   display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
