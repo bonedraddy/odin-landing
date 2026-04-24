@@ -34,18 +34,41 @@ body {
   color: #e5e7eb;
   background-color: #1f2937;
   display: flex;
+  flex: 1 1 auto;
   padding: 70px 100px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-}
-
-.website-right {
-  border: 1px solid green;
+  gap: 20px;
 }
 
 .website-left {
+  /*border: 1px solid green;*/
+  height: 300px;
+  width: 600px;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.left-lead {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.website-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+.website-right {
   background-color: gray;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   height: 300px;
   width: 600px;
   justify-content: center;
