@@ -6,27 +6,42 @@
 body {
   font-family: "Roboto", sans-serif;
   height: 100%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
-.container-header {
-  border: 2px solid red;
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
   background-color: #1f2937;
   color: #e5e7eb;
-  font-size: 18px;
-  /*display: flex;*/
 }
 
-.nav-item {
-  background-color: #161d27;
-  border: 1px solid turquoise;
+.logo a {
+  margin-right: auto;
 }
 
-#container-nav {
-  background-color: #161d27;
+.navbar {
+  padding: 12px;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
   display: flex;
-  /*flex-direction: column;*/
-  border: 1px solid green;
+  gap: 12px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #161d27;
 }
 
 /* Website Section */
